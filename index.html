@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The sweet and the bitter of cloud computing</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-league theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack" data-id="ce91735b152043e229dac5e6f1eb128a"><section data-id="bbc556b8f3236941e8a766fb297bc2b3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 140px; height: auto;" data-block-id="7c95ac655c84844cee10bafbf370b421"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="color: rgb(61, 181, 198); z-index: 10;" data-fragment-index="0">
+<h1 style="text-align:left"><span style="font-size:1.2em"><span style="color:#FFFFFF">The sweet and the bitter of </span>cloud computing</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 80px; top: 560px;" data-block-id="01a50226a856d8ae58c5d062c15fef76"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 223, 0);">
+<p style="text-align:left"><strong>Sze Siong Teo | CyberCentral Summit 2019</strong></p>
+</div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 137px; height: 66px; left: 720px; top: 527px;" data-block-id="3d020d0902432192f427f3908b2f29f6"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="137" data-natural-height="66" data-lazy-loaded="" data-src="cloudsec/8e070d1d6bddb4be82eae0b2189d04a5.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 720px; left: 80px; top: 630px;" data-block-id="79fb6703de0beb6a7606a906c662e322"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align: left;"><span style="font-size:0.5em">Transcript available at: <a href="https://www.linkedin.com/pulse/sweet-bitter-cloud-computing-sze-siong-teo/" target="_blank">https://www.linkedin.com/pulse/sweet-bitter-cloud-computing-sze-siong-teo/</a></span></p>
+</div></div></section><section data-id="cbc3c181cd7c7451f67429dee6146b14"><div class="sl-block" data-block-type="text" style="width: 427px; left: 79px; top: 140px; height: auto;" data-block-id="1670387dc1f73f0df94d929864073a8b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 10;">
+<h2>about me</h2>
+
+<p>programming - 22 years</p>
+
+<p>devops - 5 years</p>
+
+<p>security - 8 years</p>
+
+<p> </p>
+
+<p>industry exp. - 14 years</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 296px; height: 296px; left: 543px; top: 148px;" data-block-id="e40a3a22e6a1d682c525cb985b10c074"><div class="sl-block-content" style="z-index: 11; transition-duration: 1s; transition-delay: 1s;" data-animation-type="fade-in" data-animation-trigger-id="self"><img style="" data-natural-width="300" data-natural-height="300" data-lazy-loaded="" data-src="cloudsec/af70adef7634a3ae3877840aa9441570.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 490px;" data-block-id="80ce1be09149e7cbdd0de18393f1ea2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li><a href="https://conference.hitb.org/hitbsecconf2004/speakers.php.html#teo" target="_blank"><span style="font-size:0.5em">https://conference.hitb.org/hitbsecconf2004/speakers.php.html#teo</span></a></li>
+	<li><a href="https://www.defcon.org/html/defcon-16/dc-16-speakers.html#Siong" target="_blank"><span style="font-size:0.5em">https://www.defcon.org/html/defcon-16/dc-16-speakers.html#Siong</span></a></li>
+</ul>
+</div></div></section><section data-id="975b96a7e90971f8e80331a54e2dad71"><div class="sl-block" data-block-type="text" style="width: 280px; left: 340px; top: 70px; height: auto;" data-block-id="8e7c3ef20487fc43f508c1185aa0c12b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;">
+<h1><span style="font-size:1.0em">AGENDA</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 210px; height: auto;" data-block-id="3878bd3bb1cda9e2adca28e9dc9ca940"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 13;" dir="ui">
+<ul>
+	<li style="text-align:left"><span style="font-size:1.4em">On-premise vs public cloud</span></li>
+	<li style="text-align:left"><span style="font-size:1.4em">Real world cloud security issues</span></li>
+	<li style="text-align:left"><span style="font-size:1.4em">Mitigation techniques</span></li>
+</ul>
+</div></div></section><section data-id="f27c22c9a737867f3170d48d0d46637a"><div class="sl-block" data-block-type="text" style="width: 560px; left: 201px; top: 70px; height: auto;" data-block-id="d55eefd0103155f84a7b84214ca5419f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>on-premise vs public cloud</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 720px; left: 121px; top: 210px; height: auto;" data-block-id="e24c66d0e68a40342ee1bbc05d818b78"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li><span style="font-size:1.4em">Compute - whose app. runs there?</span></li>
+	<li><span style="font-size:1.4em">Network - who uses the same ASN?</span></li>
+	<li><span style="font-size:1.4em">Storage - where is your data?</span></li>
+	<li><span style="font-size:1.4em">How wide is the system trust chain?</span></li>
+</ul>
+</div></div></section><section data-id="e7e29c673f1737819427423710c88852"><div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 70px; height: auto;" data-block-id="9e21b8a68fb504be88a24cd6a6332b8b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>REAL WORLD cloud security issues</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 480px; left: 240px; top: 155px; height: auto;" data-block-id="e44967bef909870fb363133dd27ac344"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><span style="font-size:1.4em">#1 Credential leak</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 884px; height: 385px; left: 38px; top: 245px;" data-block-id="20edcfaf03af3f0fa203f2a8a720cc7a"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1538" data-natural-height="670" data-lazy-loaded="" data-src="cloudsec/ecc1dd5ecf50f2eafe49a3c73aeebe49.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 723px; left: 119px; top: 630px;" data-block-id="bf25304647b29c8805476c5521d461a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><a href="https://www.zdnet.com/article/over-100000-github-repos-have-leaked-api-or-cryptographic-keys/" target="_blank"><span style="font-size:0.5em">https://www.zdnet.com/article/over-100000-github-repos-have-leaked-api-or-cryptographic-keys/</span></a></p>
+</div></div></section><section data-id="09404ebc54630e82c6cb3b5b76546b49"><div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 70px; height: auto;" data-block-id="7e2b17e0eaaf2044bb1b423d2c9d75e3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Credential leak: Example #1</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 717px; height: 490px; left: 122px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="db0ddb0285ac84e1ab555e73a2b39a39"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1975" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/752e8dda7e34fd54baac5f08e0f880bf.png"></div></div></section><section data-id="b72435ded6eadd4f02495fdf06b45054"><div class="sl-block" data-block-type="text" style="width: 560px; left: 200px; top: 70px; height: auto;" data-block-id="84b4b80345329c8a8bd992b8988b3e48"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Credential leak: Example #2</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 626px; height: 486px; left: 167px; top: 144px; min-width: 4px; min-height: 4px;" data-block-id="74dad1a9f4995eec747698d7226c4d4e"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1739" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/fc2220474d3782636c19db56982f3814.png"></div></div></section><section data-id="2959a715702dd64fb0290bf813211978"><div class="sl-block" data-block-type="text" style="width: 560px; left: 200px; top: 70px; height: auto;" data-block-id="a881f502505e7330816e3673a0949309"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Credential leak: Example #3</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 694px; height: 490px; left: 129px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="97e3b85b6007fd9d19b30285576a3e2d"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1913" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/655a60930460e8d6780d009b6a3c3ee5.png"></div></div></section><section data-id="118b688ee27e58955b11eacfdb2c377a"><div class="sl-block" data-block-type="text" style="width: 560px; left: 200px; top: 70px; height: auto;" data-block-id="30c574bfc93eaf66851e22ef906744ea"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Credential leak: Example #4</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 692px; height: 490px; left: 134px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="15b27b3472fa4a1334d00d1d40a2a77e"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1906" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/5610796dfeab9fa6d22145334541612d.png"></div></div></section><section data-id="dcaab272d842ee78f3b3adf21232dbf1"><div class="sl-block" data-block-type="text" style="width: 560px; left: 200px; top: 70px; height: auto;" data-block-id="311d7b025d02e61c9e9a9c07a16722e5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Credential leak: Example #5</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 473px; height: 486px; left: 244px; top: 144px; min-width: 4px; min-height: 4px;" data-block-id="e74c96909b97ccc5c31e258a0551b684"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1313" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/24072cb92fcdfec039bbad8b2731ee8c.png"></div></div></section><section data-id="732403469f7a12b822bef1eb14e9f7d0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 81px; top: 70px; height: auto;" data-block-id="df0de0bc7b75a6159ff0d175ccb39c8f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>github hackerone program's hacktivity</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 544px; height: 490px; left: 208px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="a0dea3fb42fdfb023cc2d63aada0ccb8"><div class="sl-block-content" style="z-index: 14; border-style: solid; border-width: 1px; border-color: rgb(255, 255, 255);"><img style="" data-natural-width="1499" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/56759aa66540e2b405c9ac20f6beb83f.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 164px; top: 630px;" data-block-id="1b484723a2288d7c0fc7bc40008391fb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em"><a href="https://hackerone.com/github/hacktivity" target="_blank">https://hackerone.com/github/hacktivity</a> (as of 24th March 2019)</span></p>
+</div></div></section><section data-id="370120c5ca2c0e6eb06026dbcb3fb38b"><div class="sl-block" data-block-type="text" style="width: 720px; left: 120px; top: 70px; height: auto;" data-block-id="c5e003bcc3e7703b724cc1a85941c00c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>gitlab hackerone program's hacktivity</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 640px; height: 490px; left: 160px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="42714c2f8388f8ae230df1089d328014"><div class="sl-block-content" style="z-index: 14; border-style: solid; border-width: 1px;"><img style="" data-natural-width="1514" data-natural-height="1160" data-lazy-loaded="" data-src="cloudsec/ae8f771177b430ad7dce77fd24e271fd.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 160px; top: 630px;" data-block-id="2037a190caeec01a7fdf681714c233fa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui">
+<p><span style="font-size:0.7em"><a href="https://hackerone.com/gitlab/hacktivity" target="_blank">https://hackerone.com/gitlab/hacktivity</a> (as of 24th March 2019)</span></p>
+</div></div></section><section data-id="9e378a736523e35ab188db9067e54ad4"><div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 70px; height: auto;" data-block-id="d68c3c69bb2abcc962627ebe14dfe489"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Common saas CI/CD config filenames</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 560px; left: 200px; top: 210px; height: auto;" data-block-id="dd22ed5785277c5f70ef637608ccade6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li><span style="font-size:1.2em">.travis.yml</span></li>
+	<li><span style="font-size:1.2em">.circleci/config.yml</span></li>
+	<li><span style="font-size:1.2em">.gitlab-ci.yml</span></li>
+	<li><span style="font-size:1.2em">shippable.yml</span></li>
+	<li><span style="font-size:1.2em">fastlane/Fastfile (iOS/Android)</span></li>
+</ul>
+</div></div></section><section data-id="30ca1d12341120b4b61507d88b24a43d"><div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 70px; height: auto;" data-block-id="3915209aa7cc7fc433ab7ccbe5dc7871"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>REAL WORLD cloud security issues</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 480px; left: 240px; top: 155px; height: auto;" data-block-id="3cdc6dee2defa2c7ea09b28783e8e3f4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="font-size:1.4em">#2 Rogue supply chain</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 510px; height: 394px; left: 225px; top: 236px;" data-block-id="6512f3a228ecf91deb2286071f85b7cf"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1748" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/30511c5d27773db2b759545ebff114de.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 630px;" data-block-id="c7049fcf99510ce28148600bdd32e9ac"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><a href="https://motherboard.vice.com/en_us/article/pan9wn/hackers-hijacked-asus-software-updates-to-install-backdoors-on-thousands-of-computers" target="_blank"><span style="font-size:0.5em">https://motherboard.vice.com/en_us/article/pan9wn/hackers-hijacked-asus-software-updates-to-install-backdoors-on-thousands-of-computers</span></a></p>
+</div></div></section><section data-id="2752166959ade2a04fdfea31a2823f26"><div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 458px; height: 560px; left: 251px; top: 70px;" data-block-id="a7af1d319836f9cc7c299866a276ec33"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1104" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/baec77592762027094b9c5d8ed9a27b7.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 630px;" data-block-id="b3fda504b0afc66c0a3d1c5b4129ee98"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><a href="https://twitter.com/halvarflake/status/909864760853884928" target="_blank"><span style="font-size:0.7em">https://twitter.com/halvarflake/status/909864760853884928</span></a></p>
+</div></div></section><section data-id="1b540cd2bde5c2797c022d7f190f388b"><div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 70px; height: auto;" data-block-id="e556cebb8da72a0a930b98ce70383298"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>compromised supply chain</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 677px; height: 490px; left: 145px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="dbfadbc3140ffe8b788a2285a298bff5"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1865" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/2c220abb2b33d065b6440de269cfeb9e.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 710px; left: 125px; top: 630px;" data-block-id="8b574d6d06e48423e12d7d7269bd370d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><a href="https://i.blackhat.com/eu-18/Thu-Dec-6/eu-18-Kazanciyan-Broken-Links.pdf" target="_blank"><span style="font-size:0.7em">https://i.blackhat.com/eu-18/Thu-Dec-6/eu-18-Kazanciyan-Broken-Links.pdf</span></a></p>
+</div></div></section><section data-id="45c770ae8362b8ba43b887edf6ab9b4a"><div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 496px; height: 490px; left: 232px; top: 140px;" data-block-id="4411c9c6ae1fcc5f84165d587a319da4"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1367" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/c2b4b3314204fdd167a895ec4ee5cbb9.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 66px; height: auto;" data-block-id="3256f1c3a7dccb4191e7c01cc5fd4a29"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>typosquatting: sneak attack on supply chain</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 720px; left: 120px; top: 630px;" data-block-id="c9fbbf3eafdb168d4dc69145f1f8fa7e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><a href="https://nakedsecurity.sophos.com/2017/09/19/pypi-python-repository-hit-by-typosquatting-sneak-attack/" target="_blank"><span style="font-size:0.5em">https://nakedsecurity.sophos.com/2017/09/19/pypi-python-repository-hit-by-typosquatting-sneak-attack/</span></a></p>
+</div></div></section><section data-id="ce3ae32640f96baef4b6c73b12fb181a"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 273px; height: auto;" data-block-id="677672d548ea0cfeeff2663ce8779d31"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li><span style="font-size:0.9em">npm, PyPI, CPAN, Rubygems, maven, Packagist, etc..</span></li>
+	<li><span style="font-size:0.9em">ISO files, VMDK, VDI, Docker Hub, AMI marketplace</span></li>
+	<li><span style="font-size:0.9em">Lambda layers - <a href="https://github.com/mthenw/awesome-layers" target="_blank">https://github.com/mthenw/awesome-layers</a></span></li>
+	<li><span style="font-size:0.9em">AWS Serverless Application Repository</span></li>
+	<li><span style="font-size:0.9em">Application download website / software update repository</span></li>
+</ol>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 831px; left: 65px; top: 66px; height: auto;" data-block-id="85a289dbb927856ecc24e979ae2e20f2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>different types of software supply chain</h2>
+</div></div></section><section data-id="71f48d62382d13a688c57a0e1b254bae"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 70px; height: auto;" data-block-id="5401f12dcbaec062f2cbe80be0e6f53f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>REAL WORLD cloud security issues</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 155px; height: auto;" data-block-id="ae625d1a64f919c93771847c36081433"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><span style="font-size:1.4em">#3 Misconfigured cloud resources</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 848px; height: 420px; left: 56px; top: 210px;" data-block-id="39da4e50597d6b098c046f6ce3647339"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1676" data-natural-height="830" data-lazy-loaded="" data-src="cloudsec/564f6da1cfd9e3ff0f58aa36740a3a54.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 81px; top: 630px;" data-block-id="8eb8dea1fcd5674613f84e900f77106a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><a href="https://www.bleepingcomputer.com/news/security/540-mllion-facebook-records-leaked-by-public-amazon-s3-buckets/" target="_blank"><span style="font-size:0.5em">https://www.bleepingcomputer.com/news/security/540-mllion-facebook-records-leaked-by-public-amazon-s3-buckets/</span></a></p>
+</div></div></section><section data-id="fb875d5f55c2e92c34ab2a4a746f03d5"><div class="sl-block" data-block-type="text" style="width: 721px; left: 119px; top: 70px; height: auto;" data-block-id="e9282c07a777641981f258ac31369010"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>most common s3 bucket acl confusion</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 719px; height: 490px; left: 122px; top: 140px;" data-block-id="74a90d58f242def9f2a6dbce8d3409e3"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1652" data-natural-height="1126" data-lazy-loaded="" data-src="cloudsec/b4fe7e605017b37ba7819fc9e0b1a0f1.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 720px; left: 121px; top: 630px;" data-block-id="8a8dabd2223db9444417ad8a0d282530"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<p><a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html" target="_blank"><span style="font-size:0.7em">https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html</span></a></p>
+</div></div></section><section data-id="a7b5e434c85f210c026211fa0b47fd89"><div class="sl-block" data-block-type="text" style="width: 680px; left: 140px; top: 70px; height: auto;" data-block-id="5972e2770dbd933b58796cec2783cbb3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>how attackers get your bucket name?</h2>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 680px; left: 140px; top: 210px; height: auto;" data-block-id="dbdaa06aca25b5e672da0437bcba78b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li>
+<span style="font-size:0.9em">Use public SecLists (mainly web path lists)</span>
+	<ul>
+		<li><a href="https://github.com/danielmiessler/SecLists" target="_blank"><span style="font-size:0.9em">https://github.com/danielmiessler/SecLists</span></a></li>
+		<li><a href="https://github.com/tennc/fuzzdb" target="_blank"><span style="font-size:0.9em">https://github.com/tennc/fuzzdb</span></a></li>
+	</ul>
+	</li>
+	<li>
+<span style="font-size:0.9em">Sometimes gather OSINT to build custom SecLists</span><span style="font-size:0.9em">​​</span>
+</li>
+</ol>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 680px; left: 160px; top: 390px; height: auto;" data-block-id="b3c87592fe9534489dde0a1a8980ab74"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li><span style="font-size:0.9em">customer-transaction-backup</span></li>
+	<li>customer-profile-backup</li>
+	<li>cybercentral-wordpress-backup</li>
+	<li>cybercentral-wordpress-snapshot</li>
+	<li>cybercentral-backup-20190405 (date, etc.)</li>
+	<li>banking-transaction-kafka-backup</li>
+	<li>user-transaction-kafka-logs</li>
+</ul>
+</div></div></section><section data-id="0359666520866d4f451e3fc17e492436"><div class="sl-block" data-block-type="text" style="width: 680px; left: 140px; top: 70px; height: auto;" data-block-id="f17faee29959ae98ec4576ae0a8ab9d7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>how attackers get your bucket name?</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="7803fd22d2f3832e10117782d899f532"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<p><span style="font-size:1.2em">http://<span style="color:#FFFF00"><em><strong>bucket_name</strong></em></span>.s3-<span style="color:#FFFF00"><em><strong>aws_region</strong></em></span>.amazonaws.com</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 680px; left: 140px; top: 171px; height: auto;" data-block-id="a78cf34ff79291ed335b0077da147a86"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><strong>Brute force with SecLists on below URL format:</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 680px; left: 151px; top: 452px; height: auto;" data-block-id="ecc2eee1a7fdc075088c2a72f860e61a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<ul>
+	<li>
+<span style="font-size:0.9em">mysql-dump.tar.gz, </span><span style="color:rgb(255, 255, 255); text-align:left">mysql-dump.bz2</span>
+</li>
+	<li><span style="font-size:0.9em">users.sql.zip, users.tar.gz</span></li>
+	<li>consumer-service-spring-config.xml</li>
+	<li>test.tar.gz</li>
+	<li>all.tar.gz, all.zip, all.bz2</li>
+	<li>db-backup.tar.gz, db_backup.bz2, etc.</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 920px; left: 20px; top: 401px; height: auto;" data-block-id="482d020bb4712fad0ef8a0084444d243"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><strong>Same approach for filenames when directory listing not available:</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 319px;" data-block-id="7ef40425fd129873bb8660533f1121d2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" dir="ui">
+<p><em><strong><span style="font-size:36px">(Under the hood: aws s3 ls [target_bucket</span>_name])</strong></em></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 680px; left: 151px; top: 280px; height: auto;" data-block-id="89fad1a60fa0c6cfc01244a0084ed6c4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<p><strong>S3Scanner - </strong><a href="https://github.com/sa7mon/S3Scanner" target="_blank">https://github.com/sa7mon/S3Scanner</a></p>
+</div></div></section><section data-id="b2db2d1ab8bc357460c6737829977ffb"><div class="sl-block" data-block-type="text" style="width: 640px; left: 159px; top: 70px; height: auto;" data-block-id="3c7d64fbae6c66cfb8ebe758748d80dd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>overbroad IAM permission</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 399px; left: 80px; top: 183px; height: auto;" data-block-id="49490ae59033df6cbb39d534e6fe86f5"><div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ol>
+	<li>
+<span style="font-size:0.5em">IAM policy read+write common fallacy</span>
+	<ul>
+		<li><span style="font-size:0.5em">If you have write permission, then you should be able to read from it too</span></li>
+	</ul>
+	</li>
+	<li>
+<span style="font-size:0.5em">IAM principal with:</span>
+	<ul>
+		<li><span style="font-size:0.5em">Wildcard on S3, SQS policy, etc.</span></li>
+		<li><span style="font-size:0.5em">Trust to the root of other account</span></li>
+	</ul>
+	</li>
+	<li>
+<span style="font-size:0.5em">IAM policy with wildcard in:</span>
+	<ul>
+		<li><span style="font-size:0.5em">IAM actions</span></li>
+		<li><span style="font-size:0.5em">AWS resources</span></li>
+	</ul>
+	</li>
+</ol>
+</div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 371px; height: 486px; left: 514px; top: 144px;" data-block-id="c0639ba2956e2718d84807cc27c8ebb5"><div class="sl-block-content" style="z-index: 13; border-style: dashed; border-width: 1px;"><img style="" data-natural-width="744" data-natural-height="974" data-lazy-loaded="" data-src="cloudsec/9bd2dc0ce697085e3378a6257e94c7b1.png"></div></div></section><section data-id="d1c36a8e86ddda4bc9f28aa57fcec70e"><div class="sl-block" data-block-type="text" style="width: 480px; left: 240px; top: 630px; height: auto;" data-block-id="d1be699b494f27a100d2f31d7c93e911"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><a href="https://hackerone.com/reports/341876" target="_blank"><span style="font-size:0.7em">https://hackerone.com/reports/341876</span></a></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 518px; height: 491px; left: 222px; top: 140px;" data-block-id="2573977f0e9947616dd8cb48a22bc7fc"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1425" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/f9788e0d3c07c25a134b7529317e1c03.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 66px; height: auto;" data-block-id="afcfce15a95bbc1c54cfd6012ec2f042"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>Ssrf exploit in Google cloud that leads to rce</h2>
+</div></div></section><section data-id="af90d974dbc8ddee6386f0abe929dd67"><div class="sl-block" data-block-type="text" style="width: 640px; left: 161px; top: 70px; height: auto;" data-block-id="d18ed1c152dd7ad705a1c6f0ff24957c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>Ssrf exploit in AWS that leads to rce</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 401px; left: 280px; top: 630px; height: auto;" data-block-id="ff65fcee7abbf08e13b9f083838bf195"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><a href="https://hackerone.com/reports/401136" target="_blank"><span style="font-size:0.7em">https://hackerone.com/reports/401136</span></a></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 656px; height: 490px; left: 153px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="71a5b55bfbf3800a75f1c8706adf5809"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1806" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/d0048e039f4419465997d5e88c74f043.png"></div></div></section><section data-id="f1f891d922e22689dd8f68d880922d50"><div class="sl-block" data-block-type="text" style="width: 640px; left: 161px; top: 70px; height: auto;" data-block-id="5d55918243d2aea5965d510063be12b0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>misunderstood zero trust model</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 679px; left: 202px; top: 350px; height: auto;" data-block-id="475a83f70bc83aaa37f9550b79c4ceac"><div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><a href="https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html" target="_blank"><em><strong><span style="font-size:0.5em">Charlie Gero, CTO of Enterprise and Advanced Projects Group at Akamai Technologies in Cambridge, Mass.</span></strong></em></a></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 81px; top: 144px; height: auto;" data-block-id="66eafa09e38d09e9e2d0dedb28b0781c"><div class="sl-block-style" style="z-index: 13; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; border-style: dashed; border-width: 1px;">
+<p><em>“The strategy around Zero Trust boils down to don’t trust anyone. We’re talking about, ‘Let’s cut off all access until the network knows who you are. Don’t allow access to IP addresses, machines, etc. until you know who that user is and whether they’re authorized.’”</em></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="width: 723px; left: 120px; top: 527px; height: auto;" data-block-id="dbe47b73540bc7ffb8e953245d305b51"><div class="sl-block-style" style="z-index: 14; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<ol>
+	<li><span style="font-size:1.0em">Usage of default VPC &amp; default security group</span></li>
+	<li><span style="font-size:1.0em">EC2/RDS with public IP and open security group</span></li>
+</ol>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="width: 640px; left: 160px; top: 453px; height: auto;" data-block-id="3e1433d1f525b59776b821f51a952666"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 15;">
+<h2><span style="font-size:0.9em">unnecessary exposure to public network</span></h2>
+</div></div></section><section data-id="6edcb1dd4631ee945fe363f352edcf1c"><div class="sl-block" data-block-type="text" style="width: 723px; left: 119px; top: 70px; height: auto;" data-block-id="ef4a116dc015faebede6229f85161933"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>misconfigured mongodb server in public</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 509px; height: 490px; left: 226px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="8967164b25b0500be1a14463ccf435b4"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1401" data-natural-height="1350" data-lazy-loaded="" data-src="cloudsec/8da0c06bd8519e0e5efe84945849d275.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 630px;" data-block-id="a62850f73eb39853ab13cb2ab6d0f994"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><a href="https://www.zdnet.com/article/mongodb-server-leaks-11-million-user-records-from-e-marketing-service/" target="_blank"><span style="font-size:0.5em">https://www.zdnet.com/article/mongodb-server-leaks-11-million-user-records-from-e-marketing-service/</span></a></p>
+</div></div></section><section data-id="15dc7e003a9f05d58b1d86acbd81ffa8"><div class="sl-block" data-block-type="text" style="width: 401px; left: 280px; top: 70px; height: auto;" data-block-id="4cdfd531c3f4bba21e0f91de101105d8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>mitigation techniques</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 140px;" data-block-id="eb9928b7152008075a879c6f7eced168"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ol>
+	<li style="text-align:left"><span style="font-size:0.7em">Never store any plaintext credential in source control</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Always keep the servers fully patched</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Use only libraries from official  sources and pin the package version</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Don't use S3 bucket ACL, use S3 bucket policy instead</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Don’t use access keys that ties to IAM user, always use IAM role</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Always provide "just sufficient" IAM permission for all service</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Never use AWS root user, go for split account model if multiple teams</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Limit egress traffic to known host only if possible</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Use private DNS zone for internal systems whenever possible</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Strong password policy and make MFA mandatory</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">CloudTrail must be enabled and app. level logging is essential for SIEM</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">SSO for all system is mandatory in large organization</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Rate limit request by cookie and by IP or trigger reCaptcha</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Never perform any HTTP request based on unsanitized input</span></li>
+</ol>
+</div></div></section><section data-id="08c07ba2db649d7eb60313afb079e051"><div class="sl-block" data-block-type="text" style="width: 320px; left: 320px; top: 210px; height: auto;" data-block-id="3ac233e448e65d69e2b8f6f2ff42a3c8"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>thank you</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 480px; left: 279px; top: 420px; height: auto;" data-block-id="1fdf5a1e35dd933cdbca82858b87a0b7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;">
+<p><a href="https://www.linkedin.com/in/ssteo/" target="_blank">https://www.linkedin.com/in/ssteo/</a></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 46px; height: 46px; left: 233px; top: 413px;" data-block-id="1091cfb2d38d804b9c8a63b624e06945"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="225" data-natural-height="225" data-lazy-loaded="" data-src="cloudsec/7c803910276483d88a00aee82dd52ddb.png"></div></div></section></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1450566,"slug":"cloudsec","title":"The sweet and the bitter of cloud computing","description":"","width":960,"height":700,"visibility":"self","published_at":"2018-12-09T20:12:19.821Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/db4ca18a47a84377b03ee8692d72150a/thumb.jpg?1554661405","view_count":0,"user":{"id":976459,"username":"szesiongteo","name":"Sze Siong Teo","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-l4lcEfnP0hs/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-gPuOSvN7IE-dXcunsUyu6P7Mjtew/mo/photo.jpg","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":2386874,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"fade","transition":"slide","theme_id":null,"theme_font":"league","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":30,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1554661405193,"font_typekit":null,"font_google":null,"time_limit":30,"upsizing_enabled":true,"notes":{"bbc556b8f3236941e8a766fb297bc2b3":"","cbc3c181cd7c7451f67429dee6146b14":"","975b96a7e90971f8e80331a54e2dad71":"","f27c22c9a737867f3170d48d0d46637a":"","e7e29c673f1737819427423710c88852":"","09404ebc54630e82c6cb3b5b76546b49":"","b72435ded6eadd4f02495fdf06b45054":"","2959a715702dd64fb0290bf813211978":"","118b688ee27e58955b11eacfdb2c377a":"","dcaab272d842ee78f3b3adf21232dbf1":"","732403469f7a12b822bef1eb14e9f7d0":"","370120c5ca2c0e6eb06026dbcb3fb38b":"","9e378a736523e35ab188db9067e54ad4":"","30ca1d12341120b4b61507d88b24a43d":"","2752166959ade2a04fdfea31a2823f26":"","1b540cd2bde5c2797c022d7f190f388b":"","45c770ae8362b8ba43b887edf6ab9b4a":"","ce3ae32640f96baef4b6c73b12fb181a":"","71f48d62382d13a688c57a0e1b254bae":"","fb875d5f55c2e92c34ab2a4a746f03d5":"","a7b5e434c85f210c026211fa0b47fd89":"","b2db2d1ab8bc357460c6737829977ffb":"","d1c36a8e86ddda4bc9f28aa57fcec70e":"","af90d974dbc8ddee6386f0abe929dd67":"","f1f891d922e22689dd8f68d880922d50":"","6edcb1dd4631ee945fe363f352edcf1c":"","15dc7e003a9f05d58b1d86acbd81ffa8":"","08c07ba2db649d7eb60313afb079e051":"","d94762a30cc8819c5de715ef1e5e288b":"","0359666520866d4f451e3fc17e492436":""}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "fade",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
